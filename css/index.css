@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+  }
+
+.header {
+    background-color: lime;
+    padding: 1rem;
+    height: 5vh;
+}
+
+.header-title {
+    float: left;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.nav-links li {
+    margin-left: .5rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 80% auto;
+}
+
+.aside {
+    background-color: navy;
+    color: white;
+    height: 95vh;
+}
+
+.aside-button {
+    border: .1rem solid #fff;
+    padding: 2rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.box {
+    border: .1rem solid #333;
+    height: 5rem;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.3); 
+}
+
